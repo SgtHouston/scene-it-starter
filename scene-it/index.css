@@ -1,0 +1,169 @@
+body {
+	background-color:rgb(147, 147, 147);
+	background-image: url('./background.jpeg');
+	background-position: center;
+	z-index: -1;
+}
+
+.header h2, .card-link {
+	color: red;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	padding-top: 70px;
+	
+}
+
+.header2 {
+	color: #fff;
+}
+
+.header p {
+	color: white;
+}
+
+.input-group {
+	border: 18px;
+	border-color: blueviolet;
+	border-radius: 10px;
+	
+}
+
+.display-2 {
+	background-image: url('./ticketbackground.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: bottom;
+	height: 175px;
+	justify-content: space-evenly;
+	
+}
+
+.btn, .movie-button {
+	background-color: blueviolet;
+	border-color: #484848;
+	color: white;
+	border-radius: 10px;
+}
+
+.watchListLink { 
+	background-color: blueviolet;
+	border-color: #484848;
+	color: #fff;
+	border-radius: 5px;
+	height: 50px;
+	align-content: center;
+}
+
+.card-body {
+	max-height: 100%;
+	padding: 15px;
+	
+}
+
+
+.card-text {
+	margin-bottom: 3px;
+}
+
+.card-title {
+	margin: 5px;
+}
+
+.results {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+.card {
+	height: 700px;
+	min-width: 350px;
+	text-align: center;
+	margin: 10px;
+	border-color: blueviolet;
+	border-radius: 70px;
+	border-width: 8px;
+	/* hover effect + .card:hover */
+	background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+	transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card:hover{
+	transform: scale(1.07);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-img-top {
+	width: 90%;
+	height: 75%;
+	object-fit: cover;
+	
+	
+}
+
+.movie-poster {
+	border: 10px;
+}
+
+.form-control {
+	border-radius: 10px;
+}
+
+.txt-center {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+.rating {
+    width: 90px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+	justify-content: center;
+	margin: 0 auto;
+
+}
+
+.rating > label {
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+    color: #000;
+	
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+    color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: blueviolet
+}
+
+img {
+	border: 10px;
+	border: #000;
+}
